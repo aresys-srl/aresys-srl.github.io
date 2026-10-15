@@ -1,0 +1,45 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-brand">
+      <img src="{{ '/assets/images/aresys-logo-white.svg' | relative_url }}" alt="Aresys" height="28">
+      <p>Radar and Earth observation software, built in Milan.</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>Explore</h4>
+        <a href="{{ '/#projects' | relative_url }}">Projects</a>
+        <a href="https://github.com/{{ site.github_org }}">GitHub</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="{{ site.company_url }}">Aresys.it</a>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+    </div>
+    <div class="tile-grid tile-grid-mini" aria-hidden="true">
+      <div class="tile tile-sat">
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g transform="rotate(-20 22 22)">
+            <rect x="2" y="16" width="10" height="12" rx="1" stroke="var(--orange-light)" stroke-width="1.2"/>
+            <line x1="5" y1="16" x2="5" y2="28" stroke="var(--orange-light)" stroke-width="0.8"/>
+            <line x1="8" y1="16" x2="8" y2="28" stroke="var(--orange-light)" stroke-width="0.8"/>
+            <rect x="32" y="16" width="10" height="12" rx="1" stroke="var(--orange-light)" stroke-width="1.2"/>
+            <line x1="35" y1="16" x2="35" y2="28" stroke="var(--orange-light)" stroke-width="0.8"/>
+            <line x1="38" y1="16" x2="38" y2="28" stroke="var(--orange-light)" stroke-width="0.8"/>
+            <line x1="12" y1="22" x2="16" y2="22" stroke="var(--orange-light)" stroke-width="1.2"/>
+            <line x1="28" y1="22" x2="32" y2="22" stroke="var(--orange-light)" stroke-width="1.2"/>
+            <rect x="16" y="18" width="12" height="8" rx="2" fill="var(--orange)"/>
+            <line x1="22" y1="18" x2="22" y2="5" stroke="var(--orange-light)" stroke-width="1.2"/>
+            <circle cx="22" cy="5" r="1.8" fill="var(--orange-light)"/>
+          </g>
+        </svg>
+      </div>
+      <div class="tile tile-dots"></div>
+      <div class="tile tile-stripes"></div>
+      <div class="tile tile-navy-light"></div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; {{ site.time | date: '%Y' }} Aresys S.r.l.</span>
+  </div>
+</footer>

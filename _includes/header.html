@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/aresys-logo-white.svg' | relative_url }}" alt="Aresys" height="32">
+      <span class="brand-suffix">open source</span>
+    </a>
+    <nav class="site-nav">
+      {% for item in site.data.navigation %}
+      <a href="{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

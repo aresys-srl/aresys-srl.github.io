@@ -1,0 +1,26 @@
+# Site settings
+title: Open Source at Aresys
+email: info@aresys.it
+description: >-
+  Aresys builds software for synthetic aperture radar and Earth observation.
+  This is where we share it: SAR processing libraries, calibration tools,
+  and the Python ecosystem behind our satellite data products.
+baseurl: ""
+url: "https://aresys-srl.github.io"
+github_org: aresys-srl
+company_url: "https://www.aresys.it"
+
+# Brand
+brand:
+  color_primary: "#001958"
+  color_accent: "#f09006"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

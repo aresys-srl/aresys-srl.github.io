@@ -1,0 +1,70 @@
+# Real Aresys repos, pulled from https://github.com/aresys-srl
+- name: sct
+  title: SAR Calibration Toolbox
+  description: End-to-end toolbox for calibrating synthetic aperture radar systems.
+  url: "https://github.com/aresys-srl/sct"
+  language: Python
+  featured: true
+
+- name: arepytools
+  title: Arepytools
+  description: Core Python library for reading, writing and processing Aresys SAR data products.
+  url: "https://github.com/aresys-srl/arepytools"
+  language: Python
+  featured: false
+
+- name: perseo
+  title: Perseo
+  description: Python Ecosystem for Remote Sensing & Earth Observation.
+  url: "https://github.com/aresys-srl/perseo"
+  language: Python
+  featured: true
+
+- name: eo_products
+  title: EO Products
+  description: Access Level-1 SAR Earth Observation products and auxiliary data across multiple formats and missions.
+  url: "https://github.com/aresys-srl/eo_products"
+  language: Python
+  featured: false
+
+- name: sar-calibration-tool
+  title: SAR Calibration Tool
+  description: Tooling for SAR system calibration workflows.
+  url: "https://github.com/aresys-srl/sar-calibration-tool"
+  language: Python
+  featured: false
+
+- name: sct_plugins
+  title: SCT Plugins
+  description: SAR L1 product format plugins collection for the SAR Calibration Toolbox.
+  url: "https://github.com/aresys-srl/sct_plugins"
+  language: Python
+  featured: true
+
+- name: arepyextras-quality
+  title: Arepyextras Quality
+  description: Quality assessment extensions for the Arepytools ecosystem.
+  url: "https://github.com/aresys-srl/arepyextras-quality"
+  language: Python
+  featured: false
+
+- name: arepyextras-perturbations
+  title: Arepyextras Perturbations
+  description: Orbital and geometric perturbation models for SAR processing.
+  url: "https://github.com/aresys-srl/arepyextras-perturbations"
+  language: Python
+  featured: false
+
+- name: arepyextras-eo_products
+  title: Arepyextras EO Products
+  description: Earth Observation product extensions for Arepytools.
+  url: "https://github.com/aresys-srl/arepyextras-eo_products"
+  language: Python
+  featured: false
+
+- name: arepyextras-iers_solid_tides
+  title: Arepyextras IERS Solid Tides
+  description: Solid Earth tide corrections following IERS conventions.
+  url: "https://github.com/aresys-srl/arepyextras-iers_solid_tides"
+  language: Fortran
+  featured: false
