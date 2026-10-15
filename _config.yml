@@ -6,7 +6,7 @@ description: >-
   This is where we share it: SAR processing libraries, calibration tools,
   and the Python ecosystem behind our satellite data products.
 baseurl: ""
-url: "https://aresys-srl.github.io"
+url: "https://opensource.aresys.it"
 github_org: aresys-srl
 company_url: "https://www.aresys.it"
 
