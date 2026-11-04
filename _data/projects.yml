@@ -37,7 +37,7 @@
   description: SAR L1 product format plugins collection for the SAR Calibration Toolbox.
   url: "/sct_plugins"
   language: Python
-  featured: true
+  featured: false
 
 - name: sct_plugins_analyses
   title: SCT Analyses Plugins
