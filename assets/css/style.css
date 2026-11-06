@@ -8,7 +8,7 @@
   --gray-200: #d9d9d9;
   --font-heading: "Poppins", sans-serif;
   --font-body: "Inter", sans-serif;
-  --max-width: 1120px;
+  --max-width: 1250px;
 }
 
 * { box-sizing: border-box; }
@@ -34,7 +34,7 @@ a { color: var(--navy); text-decoration: none; }
 .wrap {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 0px;
 }
 
 /* Header */
@@ -169,13 +169,13 @@ a { color: var(--navy); text-decoration: none; }
 .section-title { font-size: 1.9rem; text-align: center; margin-bottom: 12px; }
 .section-lede {
   text-align: center;
-  max-width: 640px;
   margin: 0 auto 40px;
   color: #444;
 }
 .section-more { text-align: center; margin: 28px 0 56px; }
 .section-more a { font-weight: 600; }
 .subsection-title { font-size: 1.2rem; margin-bottom: 20px; }
+.subsection-title-spaced { margin-top: 48px; }
 
 .card-grid {
   display: grid;
@@ -209,6 +209,8 @@ a { color: var(--navy); text-decoration: none; }
 .card-compact { padding: 18px 20px; background: #fff; }
 .card-compact h3 { font-size: 0.95rem; }
 .card-compact p { font-size: 0.85rem; margin: 0; }
+
+.card-grid-sentinel { grid-template-columns: repeat(3, 1fr); }
 
 /* Split section */
 .split {
@@ -356,10 +358,12 @@ a { color: var(--navy); text-decoration: none; }
   .hero-grid { grid-template-columns: 1fr; }
   .tile-grid:not(.tile-grid-mini) { max-width: 360px; margin: 0 auto; }
   .split { grid-template-columns: 1fr; }
+  .card-grid-sentinel { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 640px) {
   .hero h1 { font-size: 2.2rem; }
   .site-nav a { margin-left: 16px; font-size: 0.85rem; }
   .brand-suffix { display: none; }
+  .card-grid-sentinel { grid-template-columns: 1fr; }
 }
