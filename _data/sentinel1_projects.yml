@@ -1,0 +1,18 @@
+# Sentinel-1 specific repositories from https://github.com/aresys-srl
+#
+# `url` is a domain-root path, not a site-relative one: GitHub Pages serves each
+# project site at <custom-domain>/<repo>/, so these are intentionally root-relative
+# and must NOT be run through `relative_url` / `site.baseurl`. Changing the custom
+# domain keeps them working; a non-empty baseurl would break them.
+
+- name: s1_rad_cal
+  title: Sentinel-1 Radiometric Calibration
+  description: Radiometric calibration tool for Sentinel-1 SAR products.
+  url: "/s1_rad_cal"
+  language: Python
+
+- name: s1-denoise
+  title: Sentinel-1 Denoise
+  description: Thermal noise vector reconstruction from Sentinel-1 TOPSAR products.
+  url: "/s1-denoise"
+  language: Python
