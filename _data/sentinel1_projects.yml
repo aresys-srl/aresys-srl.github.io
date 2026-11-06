@@ -12,7 +12,7 @@
   language: Python
 
 - name: s1-denoise
-  title: Sentinel-1 Denoise
-  description: Thermal noise vector reconstruction from Sentinel-1 TOPSAR products.
+  title: Sentinel-1 Level 1 Noise Processor
+  description: Thermal noise vector reconstruction from Sentinel-1 SAR products.
   url: "/s1-denoise"
   language: Python
